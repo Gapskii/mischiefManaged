@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import { gryffindorLogo, slytherinLogo, ravenclawLogo, hufflepuffLogo } from "../../../assets/images";
+import { gryffindorLogo, slytherinLogo, ravenclawLogo, hufflepuffLogo } from "../../assets/images";
 import { useMediaQuery } from 'react-responsive'
 import useLocalStorage from "use-local-storage";
 

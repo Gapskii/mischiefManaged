@@ -1,4 +1,4 @@
-import { HouseSelector } from "./components/HouseSelector"
+import { HouseSelector } from "../HouseSelector/HouseSelector"
 
 export function Header() {
   return (

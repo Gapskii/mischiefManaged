@@ -6,8 +6,8 @@ export function LayoutContext({children}:{children: ReactNode}) {
   const [ preferredTheme ] = useLocalStorage('preferredTheme', 'gryffindor')
 
   return (
-      <div data-theme={preferredTheme} className="bg-background w-screen h-screen">
-        {children}
-      </div> 
+    <div data-theme={preferredTheme} className="bg-background w-screen h-screen">
+      {children}
+    </div> 
   )
 }

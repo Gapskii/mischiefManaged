@@ -16,8 +16,8 @@ export function Sidebar() {
         <ClickableText text={'All characters'} request={'characters'}/>
         <ClickableText text={'All students'} request={'students'}/>
         <ClickableText text={'All staff'} request={'staff'}/>
-        <ClickableText text={'Students per house'} request={'favouritehousestudents'}/>
-        <ClickableText text={'Favorite Characters'} request={'favoritecharacters'}/>
+        <ClickableText text={'Students per house'} request={'favouriteHouseStudents'}/>
+        <ClickableText text={'Favorite Characters'} request={'favoriteCharacters'}/>
       </div>
     </div>
 
@@ -32,8 +32,8 @@ export function Sidebar() {
           <ClickableText text={'All characters'} request={'characters'}/>
           <ClickableText text={'All students'} request={'students'}/>
           <ClickableText text={'All staff'} request={'staff'}/>
-          <ClickableText text={'Students per house'} request={'favouritehousestudents'}/>
-          <ClickableText text={'Favorite Characters'} request={'favoritecharacters'}/>
+          <ClickableText text={'Students per house'} request={'favouriteHouseStudents'}/>
+          <ClickableText text={'Favorite Characters'} request={'favoriteCharacters'}/>
         </div>
       </aside>
     }
